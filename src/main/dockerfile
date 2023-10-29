@@ -1,0 +1,5 @@
+FROM bellsoft/liberica-openjdk-alpine:16.0.1
+COPY ./java ./src
+RUN mkdir ./out
+RUN javac -sourcepath ./src -d out ./src/suborg/toga/Main.java
+CMD java -classpath ./out suborg.toga.Main

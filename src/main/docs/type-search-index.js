@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"suborg.toga","l":"Main"},{"p":"suborg.proga","l":"UFOChecker"},{"p":"suborg.proga","l":"UFOEncounter"}];updateSearchResults();
